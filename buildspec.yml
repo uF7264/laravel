@@ -1,0 +1,11 @@
+version: 0.2
+
+env:
+  variables:
+    ENV_USER: "pavel"
+
+phases:
+  build:
+    commands:
+      - composer install
+      - cp ./config_env/local.env ./.env
