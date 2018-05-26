@@ -8,4 +8,3 @@ phases:
   build:
     commands:
       - composer install
-      - cp ./config_env/local.env ./.env
